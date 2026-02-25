@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pro Cosmetics - Professional Make-up</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="meta-bar">
+    <div class="container py-2 d-flex justify-content-between align-items-center flex-wrap gap-2">
+      <div class="d-flex align-items-center gap-3 text-uppercase small">
+        <span>International</span>
+        <span>Language: English</span>
+      </div>
+      <div class="meta-right">Search products, courses, and tutorials</div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container">
+        <a href="#" class="brand navbar-brand m-0">
+          <img src="./logo.png" alt="Pro Cosmetics logo">
+          <span>
+            <strong>Pro Cosmetics</strong>
+            <small>Professional Make-up</small>
+          </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://global.kryolan.com/products">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#academy">Courses &amp; Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="#story">Our Story</a></li>
+            <li class="nav-item"><a class="nav-link" href="#journal">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <div class="header-actions ms-lg-3 mt-3 mt-lg-0">
+            <button class="pill-btn">My account</button>
+            <a class="pill-btn primary" href="https://global.kryolan.com/products">Shop now</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-shell" id="hero-shell">
+        <article class="slide active">
+          <picture>
+            <source type="image/webp" srcset="./assets/hero/hero-1-768.webp 768w, ./assets/hero/hero-1-1280.webp 1280w" sizes="(max-width: 900px) 100vw, 1240px">
+            <img src="./assets/hero/hero-1.jpg" alt="Complexion campaign" loading="eager" decoding="async">
+          </picture>
+          <div class="hero-content">
+            <p class="eyebrow">New launch</p>
+            <h1>Performance complexion for professional every day wear.</h1>
+            <p>Skin-adaptive formulas built for long hours, high-definition cameras, and effortless comfort.</p>
+            <div class="hero-actions">
+              <a class="pill-btn primary" href="https://global.kryolan.com/products">Explore products</a>
+              <a class="pill-btn" href="https://global.kryolan.com/products">Find your shade</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide">
+          <picture>
+            <source type="image/webp" srcset="./assets/hero/hero-2-768.webp 768w, ./assets/hero/hero-2-1280.webp 1280w" sizes="(max-width: 900px) 100vw, 1240px">
+            <img src="./assets/hero/hero-2.jpg" alt="Lip campaign" loading="lazy" decoding="async">
+          </picture>
+          <div class="hero-content">
+            <p class="eyebrow">Velvet Kiss</p>
+            <h1>Editorial color stories with a wearable, comfortable finish.</h1>
+            <p>Rich pigment payoff, precise edges, and transfer-aware formulas for all-day statement looks.</p>
+            <div class="hero-actions">
+              <a class="pill-btn primary" href="https://global.kryolan.com/products">Shop lipstick</a>
+              <a class="pill-btn" href="https://global.kryolan.com/products">See all shades</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide">
+          <picture>
+            <source type="image/webp" srcset="./assets/hero/hero-3-768.webp 768w, ./assets/hero/hero-3-1280.webp 1280w" sizes="(max-width: 900px) 100vw, 1240px">
+            <img src="./assets/hero/hero-3.jpg" alt="Pro selection campaign" loading="lazy" decoding="async">
+          </picture>
+          <div class="hero-content">
+            <p class="eyebrow">Pro selection</p>
+            <h1>Backstage-ready kits crafted for artists and creators.</h1>
+            <p>Build complete kits with prep, pigment, and setting essentials that perform under pressure.</p>
+            <div class="hero-actions">
+              <a class="pill-btn primary" href="https://global.kryolan.com/products">Build kit</a>
+              <a class="pill-btn" href="https://global.kryolan.com/products">Book consultation</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="hero-nav" id="hero-dots">
+          <button class="dot active" aria-label="Slide 1"></button>
+          <button class="dot" aria-label="Slide 2"></button>
+          <button class="dot" aria-label="Slide 3"></button>
+        </div>
+      </div>
+
+      <div class="summary-strip">
+        <div class="summary-item"><strong>120+</strong>Pro formulas</div>
+        <div class="summary-item"><strong>4.8/5</strong>Artist reviews</div>
+        <div class="summary-item"><strong>36</strong>Skin shades</div>
+        <div class="summary-item"><strong>48h</strong>Studio hold</div>
+      </div>
+    </section>
+
+    <section class="container slogan">
+      <p>make-up is a science</p>
+    </section>
+
+    <section class="section container" id="products">
+      <div class="section-head">
+        <h2>Bestseller</h2>
+        <a href="https://global.kryolan.com/products">view all products</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <article class="product-card reveal h-100">
+            <a class="card-link" href="https://global.kryolan.com/products">
+              <div class="product-media">
+                <span class="product-tag">Vegan</span>
+                <picture><source type="image/webp" srcset="./assets/products/fixing-spray-220.webp 220w, ./assets/products/fixing-spray-340.webp 340w" sizes="170px"><img src="./assets/products/fixing-spray.png" alt="Fixing Spray" loading="lazy" decoding="async"></picture>
+              </div>
+              <div class="product-info">
+                <h3>Fixing Spray</h3>
+                <p class="product-desc">Long-wear setting mist with micro-fine hold for studio and stage.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <article class="product-card reveal h-100">
+            <a class="card-link" href="https://global.kryolan.com/products">
+              <div class="product-media">
+                <span class="product-tag accent">New shades</span>
+                <picture><source type="image/webp" srcset="./assets/products/lip-oil-220.webp 220w, ./assets/products/lip-oil-340.webp 340w" sizes="170px"><img src="./assets/products/lip-oil.png" alt="Lip Oil" loading="lazy" decoding="async"></picture>
+              </div>
+              <div class="product-info">
+                <h3>Lip Oil</h3>
+                <p class="product-desc">Hydrating color gloss with vitamin-infused pigments and a velvet finish.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <article class="product-card reveal h-100">
+            <a class="card-link" href="https://global.kryolan.com/products">
+              <div class="product-media">
+                <span class="product-tag">Refillable</span>
+                <picture><source type="image/webp" srcset="./assets/products/velvet-vision-220.webp 220w, ./assets/products/velvet-vision-340.webp 340w" sizes="170px"><img src="./assets/products/velvet-vision.png" alt="Velvet Vision" loading="lazy" decoding="async"></picture>
+              </div>
+              <div class="product-info">
+                <h3>Velvet Vision Palette</h3>
+                <p class="product-desc">12 blendable mattes & shimmers in an eco-refill compact.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <article class="product-card reveal h-100">
+            <a class="card-link" href="https://global.kryolan.com/products">
+              <div class="product-media">
+                <span class="product-tag">Pro staple</span>
+                <picture><source type="image/webp" srcset="./assets/products/concealer-circle-220.webp 220w, ./assets/products/concealer-circle-340.webp 340w" sizes="170px"><img src="./assets/products/concealer-circle.png" alt="Concealer Circle" loading="lazy" decoding="async"></picture>
+              </div>
+              <div class="product-info">
+                <h3>Concealer Circle</h3>
+                <p class="product-desc">6-shade corrector wheel for precise blemish and tone matching.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <article class="product-card reveal h-100">
+            <a class="card-link" href="https://global.kryolan.com/products">
+              <div class="product-media">
+                <span class="product-tag accent">HD</span>
+                <picture><source type="image/webp" srcset="./assets/products/digital-complexion-220.webp 220w, ./assets/products/digital-complexion-340.webp 340w" sizes="170px"><img src="./assets/products/digital-complexion.png" alt="Digital Complexion" loading="lazy" decoding="async"></picture>
+              </div>
+              <div class="product-info">
+                <h3>Digital Complexion</h3>
+                <p class="product-desc">Camera-optimized foundation with adaptive light-diffusing pigments.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <article class="product-card reveal h-100">
+            <a class="card-link" href="https://global.kryolan.com/products">
+              <div class="product-media">
+                <span class="product-tag">Classic</span>
+                <picture><source type="image/webp" srcset="./assets/products/tv-paint-stick-220.webp 220w, ./assets/products/tv-paint-stick-340.webp 340w" sizes="170px"><img src="./assets/products/tv-paint-stick.png" alt="TV Paint Stick" loading="lazy" decoding="async"></picture>
+              </div>
+              <div class="product-info">
+                <h3>TV Paint Stick</h3>
+                <p class="product-desc">Ultra-coverage cream stick — the original backstage essential since '45.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="collections">
+      <div class="section-head">
+        <h2>Shop by Category</h2>
+        <a href="https://global.kryolan.com/products">all categories</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-3"><a class="category reveal" href="https://global.kryolan.com/products"><picture><source type="image/webp" srcset="./assets/category/eyes-420.webp 420w, ./assets/category/eyes-840.webp 840w, ./assets/category/eyes-1200.webp 1200w" sizes="(max-width: 1050px) 50vw, 25vw"><img src="./assets/category/eyes.jpg" alt="Eyes" loading="lazy" decoding="async"></picture><span>Eyes</span></a></div>
+        <div class="col-12 col-sm-6 col-lg-3"><a class="category reveal" href="https://global.kryolan.com/products"><picture><source type="image/webp" srcset="./assets/category/lips-420.webp 420w, ./assets/category/lips-840.webp 840w, ./assets/category/lips-1200.webp 1200w" sizes="(max-width: 1050px) 50vw, 25vw"><img src="./assets/category/lips.jpg" alt="Lips" loading="lazy" decoding="async"></picture><span>Lips</span></a></div>
+        <div class="col-12 col-sm-6 col-lg-3"><a class="category reveal" href="https://global.kryolan.com/products"><picture><source type="image/webp" srcset="./assets/category/face-body-420.webp 420w, ./assets/category/face-body-840.webp 840w, ./assets/category/face-body-1200.webp 1200w" sizes="(max-width: 1050px) 50vw, 25vw"><img src="./assets/category/face-body.jpg" alt="Face and Body" loading="lazy" decoding="async"></picture><span>Face &amp; Body</span></a></div>
+        <div class="col-12 col-sm-6 col-lg-3"><a class="category reveal" href="https://global.kryolan.com/products"><picture><source type="image/webp" srcset="./assets/category/sfx-420.webp 420w, ./assets/category/sfx-840.webp 840w, ./assets/category/sfx-1200.webp 1200w" sizes="(max-width: 1050px) 50vw, 25vw"><img src="./assets/category/sfx.jpg" alt="Special Effects" loading="lazy" decoding="async"></picture><span>Special Effects</span></a></div>
+      </div>
+    </section>
+
+    <section class="section container" id="academy">
+      <div class="section-head">
+        <h2>Courses &amp; Events</h2>
+        <a href="#">see calendar</a>
+      </div>
+      <div class="row g-4 align-items-stretch">
+        <div class="col-12 col-lg-7 d-flex">
+          <article class="feature reveal w-100" id="story">
+            <picture><source type="image/webp" srcset="./assets/feature/masterclass-640.webp 640w, ./assets/feature/masterclass-960.webp 960w, ./assets/feature/masterclass-1400.webp 1400w" sizes="(max-width: 1050px) 100vw, 60vw"><img src="./assets/feature/masterclass.jpg" alt="Masterclass" loading="lazy" decoding="async"></picture>
+            <div class="feature-copy">
+              <p class="eyebrow">Masterclass</p>
+              <h3>Camera-Ready Complexion Techniques</h3>
+              <p>Hands-on sessions covering undertone matching, layering logic, and long-wear set routines.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-lg-5 d-flex">
+          <div class="academy-stack">
+            <article class="feature reveal">
+              <picture><source type="image/webp" srcset="./assets/feature/story-640.webp 640w, ./assets/feature/story-960.webp 960w" sizes="(max-width: 1050px) 100vw, 40vw"><img src="./assets/feature/story.jpg" alt="Brand story" loading="lazy" decoding="async"></picture>
+              <div class="feature-copy">
+                <p class="eyebrow">Our Story</p>
+                <h3>Built backstage. Perfected for every face.</h3>
+                <p>From theater roots to modern studio labs, we focus on precise color and high-performance finish.</p>
+              </div>
+            </article>
+
+            <article class="academy-visual reveal">
+              <picture>
+                <source type="image/webp" srcset="./assets/category/lips-420.webp 420w, ./assets/category/lips-840.webp 840w, ./assets/category/lips-1200.webp 1200w" sizes="(max-width: 1050px) 100vw, 40vw">
+                <img src="./assets/category/lips.jpg" alt="Upcoming courses visual" loading="lazy" decoding="async">
+              </picture>
+              <div class="academy-visual-copy">
+                <p class="eyebrow">Upcoming Sessions</p>
+                <h4>Weekly workshops in complexion, editorial, and special effects</h4>
+                <p>Join live practical classes, guided product labs, and portfolio review sessions designed to level up both beginners and advanced professionals.</p>
+                <a class="academy-link" href="#">View Course Calendar</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="journal">
+      <div class="section-head">
+        <h2>Journal</h2>
+        <a href="#">read all posts</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="news reveal h-100">
+            <picture><source type="image/webp" srcset="./assets/journal/trend-480.webp 480w, ./assets/journal/trend-900.webp 900w, ./assets/journal/trend-1200.webp 1200w" sizes="(max-width: 680px) 100vw, 33vw"><img src="./assets/journal/trend.jpg" alt="Trend report" loading="lazy" decoding="async"></picture>
+            <div class="news-copy">
+              <small>Trend report</small>
+              <h4>Soft Metal Neutrals for Spring Editorial Looks</h4>
+              <p>How to balance sheen and depth for camera-friendly texture.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="news reveal h-100">
+            <picture><source type="image/webp" srcset="./assets/journal/howto-480.webp 480w, ./assets/journal/howto-900.webp 900w, ./assets/journal/howto-1200.webp 1200w" sizes="(max-width: 680px) 100vw, 33vw"><img src="./assets/journal/howto.jpg" alt="How to" loading="lazy" decoding="async"></picture>
+            <div class="news-copy">
+              <small>How To</small>
+              <h4>3-Step Method for Long-Lasting Base in Humid Weather</h4>
+              <p>Prep, set, and lock techniques with minimal product load.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="news reveal h-100">
+            <picture><source type="image/webp" srcset="./assets/journal/artist-480.webp 480w, ./assets/journal/artist-900.webp 900w, ./assets/journal/artist-1200.webp 1200w" sizes="(max-width: 680px) 100vw, 33vw"><img src="./assets/journal/artist.jpg" alt="Artist talk" loading="lazy" decoding="async"></picture>
+            <div class="news-copy">
+              <small>Artist Talk</small>
+              <h4>Inside a Fashion Week Kit: What Professionals Actually Carry</h4>
+              <p>The essentials artists repeat in global backstage setups.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="contact">
+      <div class="newsletter reveal p-4 p-lg-5">
+        <div class="row w-100 align-items-center g-3 g-lg-4">
+          <div class="col-12 col-lg-7">
+            <h3 class="mb-2">Join the Pro Beauty Journal</h3>
+            <p class="mb-0">Get launch alerts, training sessions, and artist-only offers.</p>
+          </div>
+          <div class="col-12 col-lg-5">
+            <form class="row g-2 justify-content-lg-end">
+              <div class="col-12 col-sm-8">
+                <input class="form-control form-control-lg newsletter-input" type="email" placeholder="Enter your email" aria-label="Email address">
+              </div>
+              <div class="col-12 col-sm-4 d-grid">
+                <button class="btn btn-warning text-uppercase fw-bold newsletter-btn" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <h5 class="text-uppercase small fw-semibold mb-3">Pro Cosmetics</h5>
+          <p class="mb-0">High-performance professional make-up for stage, screen, editorial, and daily wear.</p>
+        </div>
+        <div class="col-6 col-md-6 col-lg-3">
+          <h5 class="text-uppercase small fw-semibold mb-3">Products</h5>
+          <ul class="list-unstyled d-grid gap-2 mb-0">
+            <li><a class="text-decoration-none footer-link" href="https://global.kryolan.com/products">Face &amp; Body</a></li>
+            <li><a class="text-decoration-none footer-link" href="https://global.kryolan.com/products">Lips</a></li>
+            <li><a class="text-decoration-none footer-link" href="https://global.kryolan.com/products">Eyes</a></li>
+            <li><a class="text-decoration-none footer-link" href="https://global.kryolan.com/products">Special Effects</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-6 col-lg-3">
+          <h5 class="text-uppercase small fw-semibold mb-3">Learn</h5>
+          <ul class="list-unstyled d-grid gap-2 mb-0">
+            <li><a class="text-decoration-none footer-link" href="#">Courses</a></li>
+            <li><a class="text-decoration-none footer-link" href="#">How To</a></li>
+            <li><a class="text-decoration-none footer-link" href="#">Blog</a></li>
+            <li><a class="text-decoration-none footer-link" href="#">Store Locator</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <h5 class="text-uppercase small fw-semibold mb-3">Support</h5>
+          <ul class="list-unstyled d-grid gap-2 mb-0">
+            <li><a class="text-decoration-none footer-link" href="#">Shipping</a></li>
+            <li><a class="text-decoration-none footer-link" href="#">Returns</a></li>
+            <li><a class="text-decoration-none footer-link" href="#">Contact</a></li>
+            <li><a class="text-decoration-none footer-link" href="#">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 Pro Cosmetics - Professional Make-up</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
