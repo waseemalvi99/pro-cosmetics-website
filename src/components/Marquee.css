@@ -1,0 +1,36 @@
+.marquee {
+  padding: var(--space-section) 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee__line {
+  height: 1px;
+  background: var(--color-line);
+}
+
+.marquee__track {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.5rem 0;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.marquee__word {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--color-ink);
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  flex-shrink: 0;
+}
+
+.marquee__dot {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: var(--color-accent);
+  flex-shrink: 0;
+}

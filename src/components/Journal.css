@@ -1,0 +1,116 @@
+.journal {
+  padding: var(--space-section) 0;
+}
+
+.journal__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.journal-card {
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  overflow: hidden;
+  transition: box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.journal-card:hover {
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-accent-cream);
+}
+
+.journal-card__link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.journal-card__img-wrap {
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+}
+
+.journal-card__img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s var(--ease-out);
+}
+
+.journal-card:hover .journal-card__img-wrap img {
+  transform: scale(1.05);
+}
+
+.journal-card__body {
+  padding: 1.25rem 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.journal-card__cat {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+.journal-card__title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+  color: var(--color-ink);
+}
+
+.journal-card__desc {
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  line-height: 1.55;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.journal-card__read {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-ink-soft);
+  transition: color 0.3s ease, gap 0.3s ease;
+}
+
+.journal-card:hover .journal-card__read {
+  color: var(--color-accent);
+  gap: 0.6rem;
+}
+
+@media (max-width: 900px) {
+  .journal__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .journal-card:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .journal__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .journal-card:last-child {
+    display: block;
+  }
+}
